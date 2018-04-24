@@ -12,27 +12,32 @@ h2 {
 path.arc {
   pointer-events: none;
   fill: none;
-  stroke: #000;
+  stroke: black;
   display: none;
+  stroke-linecap: round;
 }
 
 path.cell {
   fill: none;
   pointer-events: all;
+
 }
 
 #cells g:hover path.arc {
   display: inherit;
+
 }
 
 .land {
-  fill: none;
-  stroke: lightgrey;
+  fill: #210ece;
+  stroke: #bf2307;
+  strke-width: 5;
 }
 
 .state-boundary {
   fill: none;
-  stroke: lightgrey;
+  stroke: #e5b9b7;
+  strke-width: 5;
 }
 
 #cells.voronoi path.cell {
